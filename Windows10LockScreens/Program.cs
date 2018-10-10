@@ -16,7 +16,7 @@ namespace Windows10LockScreens
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainFrm());
+            Application.Run(new mainForm());
         }
     }
 }

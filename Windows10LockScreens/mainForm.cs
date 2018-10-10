@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Windows10LockScreens
 {
-    public partial class mainFrm : Form
+    public partial class mainForm : Form
     {
-        public mainFrm()
+        public mainForm()
         {
             InitializeComponent();
+        }
+
+        private void mainFrm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
