@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.saveBtn = new System.Windows.Forms.Button();
             this.previewPictureBox = new System.Windows.Forms.PictureBox();
             this.filesList = new System.Windows.Forms.ListView();
@@ -157,6 +158,7 @@
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.filesList);
             this.Controls.Add(this.previewPictureBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(661, 481);
             this.Name = "mainForm";
